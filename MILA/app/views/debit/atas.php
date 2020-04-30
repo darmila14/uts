@@ -61,7 +61,7 @@ catch(Exception $e){
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">MILA</a>
+        <a class="navbar-brand" href="#">MILA</a>
       </div>
 
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -77,10 +77,13 @@ catch(Exception $e){
           <ul class="nav" id="side-menu">
       
             <li>
-              <a href="dashboard.php" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+              <a href="../../../dashboard.php" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
             </li>
             <li>
-              <a href="app/views/debit/read.php" class="active"><i class="fa fa-money" aria-hidden="true"></i> Data Debit Nasabah</a>
+              <a href="../../../app/views/debit/read.php" class="active"><i class="fa fa-money" aria-hidden="true"></i> Data Debit Nasabah</a>
+            </li>
+             <li>
+              <a href="https://github.com/darmila14?tab=repositories" class="active"><i class="fa fa-arrow-right" aria-hidden="true"></i> Github</a>
             </li>
             <li>
               <a href="../../../logout.php" class="active"><i class="fa fa-arrow-left" aria-hidden="true"></i> Logout</a>
